@@ -47,5 +47,12 @@ namespace SampleWebApplication.Controllers
             return View();
         }
 
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Your test page.";
+
+            return View();
+        }
+
     }
 }
