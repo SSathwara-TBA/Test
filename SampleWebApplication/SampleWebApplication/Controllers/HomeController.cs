@@ -34,5 +34,12 @@ namespace SampleWebApplication.Controllers
 
             return View();
         }
+        public ActionResult Home()
+        {
+            ViewBag.Message = "Your Home page.";
+
+            return View();
+        }
+
     }
 }
