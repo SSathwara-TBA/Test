@@ -40,6 +40,12 @@ namespace SampleWebApplication.Controllers
 
             return View();
         }
+        public ActionResult History()
+        {
+            ViewBag.Message = "Your History page.";
+
+            return View();
+        }
 
     }
 }
