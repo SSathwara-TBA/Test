@@ -28,5 +28,11 @@ namespace SampleWebApplication.Controllers
 
             return View();
         }
+        public ActionResult Help()
+        {
+            ViewBag.Message = "Your Help page.";
+
+            return View();
+        }
     }
 }
